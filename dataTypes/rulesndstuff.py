@@ -1,0 +1,24 @@
+'''Rules for Python variables:
+
+A variable name must start with a letter or the underscore character
+
+A variable name cannot start with a number
+
+A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
+
+Variable names are case-sensitive (age, Age and AGE are three different variables)
+
+A variable name cannot be any of the Python keywords.'''
+
+
+#it is possible to assign the same value to multiple variables
+
+x = y = z = "ORANGE"
+print(x)
+
+print(y)
+
+print(z)
+
+print(x + y + z)# do not use + to add 2 different data types, use comma
+
